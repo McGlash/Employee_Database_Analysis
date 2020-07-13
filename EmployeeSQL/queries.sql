@@ -62,10 +62,6 @@ SELECT *
 FROM employees
 WHERE emp_no = 499942;
 
-Select DISTINCT count(emp_no)
-FROM emp_dept
-
-Select DISTINCT count(emp_no)
-FROM employees
+--- April fools!
 
 
