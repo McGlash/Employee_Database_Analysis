@@ -16,11 +16,11 @@ where hire_date BETWEEN '1986-01-01' AND '1986-12-31';
 -- 3 List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
 
 SELECT departments.dept_no, departments.dept_name, 
-       debt_manager.emp_no, 
+       dept_manager.emp_no, 
 	   employees.last_name, employees.first_name
 FROM departments
-LEFT JOIN debt_manager ON departments.dept_no = debt_manager.dept_no
-LEFT JOIN employees ON debt_manager.emp_no = employees.emp_no;
+LEFT JOIN dept_manager ON departments.dept_no = dept_manager.dept_no
+LEFT JOIN employees ON dept_manager.emp_no = employees.emp_no;
 
 -- 4 List the department of each employee with the following information: employee number, last name, first name, and department name.
 
