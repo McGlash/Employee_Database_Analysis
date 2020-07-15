@@ -18,9 +18,8 @@ CREATE TABLE employees (emp_no INT PRIMARY KEY,
 					   hire_date DATE);
 --- salaries
 
-CREATE TABLE salaries (emp_no INT UNIQUE REFERENCES employees(emp_no),
-					  salary INT NOT NULL,
-					  PRIMARY KEY (emp_no, salary)); --composite key
+CREATE TABLE salaries (emp_no INT PRIMARY KEY REFERENCES employees(emp_no),
+					  salary INT NOT NULL)
 --- departments
 
 CREATE TABLE departments (dept_no VARCHAR(4) PRIMARY KEY, 
