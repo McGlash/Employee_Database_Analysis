@@ -5,7 +5,7 @@
 ---titles
 
 CREATE TABLE titles (title_id VARCHAR(5) PRIMARY KEY,
-					 title char(30) NOT NULL);
+					 title VARCHAR(30) NOT NULL);
 					 
 --- employees
 
