@@ -10,7 +10,7 @@ In this challenge, I designed tables to hold data in the six employees CSVs, imp
 
 * Developed a an entity-relationship model
 
-![ERD](sql.png)
+![ERD](EmployeeSQL/ER Diagram.png)
 
 #### Data Engineering
 
