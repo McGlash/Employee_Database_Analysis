@@ -1,6 +1,7 @@
 # Employee Database Analysis
 
-![sql.png](images/sql.png)
+![salary distribution](images/Average_salaries.png)
+
 
 ## Background
 
@@ -30,4 +31,4 @@ see [code](EmployeeSQL/Salary Analysis.ipynb)
 
 2. Analyszed trends in employee salaries
 
-![salary distribution](images/Salary histogram.png)
+![salary distribution](images/Salary_histogram.png)
