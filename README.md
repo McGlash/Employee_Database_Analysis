@@ -1,6 +1,6 @@
 # Employee Database Analysis
 
-![sql.png](sql.png)
+![sql.png](images/sql.png)
 
 ## Background
 
@@ -28,6 +28,6 @@ see [code](EmployeeSQL/Salary Analysis.ipynb)
 
 1. Imported the SQL database into Pandas. 
 
-2. Created a histogram to visualize the most common salary ranges for employees.
+2. Analyszed trends in employee salaries
 
-3. Created a bar chart of average salary by title.
+![salary distribution](images/Salary histogram.png)
