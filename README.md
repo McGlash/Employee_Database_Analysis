@@ -1,4 +1,4 @@
-# SQL Challenge - Employee Database: A Mystery in Two Parts
+# Employee Database Analysis
 
 ![sql.png](sql.png)
 
