@@ -24,6 +24,8 @@ Conducted a number of [queries](EmployeeSQL/queries.sql) to explore data.
 
 ### Analysis
 
+see [code](EmployeeSQL/Salary Analysis.ipynb)
+
 1. Imported the SQL database into Pandas. 
 
 2. Created a histogram to visualize the most common salary ranges for employees.
