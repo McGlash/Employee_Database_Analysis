@@ -20,7 +20,7 @@ I designed tables to hold data in the six employees CSVs, imported the CSVs into
 
 #### Data Analysis
 
-Conducted a number of queries. 
+Conducted a number of [queries](EmployeeSQL/queries.sql) to explore data. 
 
 ### Analysis
 
