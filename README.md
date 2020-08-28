@@ -14,7 +14,7 @@ I designed tables to hold data in the six employees CSVs, imported the CSVs into
 
 #### Data Engineering
 
-* Used the information to create a table schema for each of the six CSV files. 
+* Used the information to create a [schema](EmployeeSQL/schema.sql) for each of the six CSV files. 
 
 * Imported each CSV file into the corresponding SQL table. 
 
